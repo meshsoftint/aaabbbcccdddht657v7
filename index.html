@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" /> 
+    <style>
+        .bg-header {
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff !important;
+        }
+
+        .footer-text-color {
+            color: #ffffff !important;
+        }
+
+        .footer-text-color .navbar-brand {
+            color: #ffffff !important;
+        }
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+
+        .top-area {
+            position: relative;
+            opacity: 1;
+            height: 400px;
+            /* background-color: rgba(0, 0, 0, 0.5) !important; */
+        }
+
+        .transparent-layer {
+            position: absolute;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .top-area::before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .top-area>div {
+            position: relative;
+        }
+
+        .head-title {
+            font-size: calc(1.75rem + 1.5vw);
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .head-tagline {
+            font-size: calc(.5rem + 1.5vw);
+            color: #fff;
+        }
+
+        .header-contents {
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <div class="transparent-layer">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-header">
+            <div class="container px-5">
+                <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                        <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()">
+                    </span>
+                    <span class="navbar-brand header-text-color">Computer</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                        <li class="nav-item {{home_active}}">
+                            <a class="nav-link header-text-color" href="index.html">Home</a>
+                        </li>
+                        <div class="nav-item {{service_active}} dropdown">
+                            <button class="header-text-color dropbtn is-mobile">Pages</button>
+                            <a class="nav-link header-text-color dropbtn is-desktop" href="services.html">Pages</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content2">
+                                    <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="rgb-light-mouse.html">RGB Light Mouse
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="rgb-light-keyboard.html">RGB Light Keyboard
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="laptop-39.html">Laptop
+                                                                                        <span class="border-menu"></span></a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="nav-item {{blog_active}}">
+                            <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item {{contact_active}}" style="display: inherit">
+                            <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: inherit">
+                        <li class="nav-item" style="display: inline-block">
+                            <a class="nav-link header-text-color" target="_blank" href="facebook.com">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Heading Row-->
+        <div class="gx-0 align-items-center py-lg-6">
+            <div class="header-contents">
+                <h1 class="head-title">Computer</h1>
+                <h4 class="head-tagline"></h4>
+            </div>
+            <div class="header-contents">
+                <a class="btn btn-primary btn-md mt-2" style="display: none" target="_blank" href="tel:">Call Now</a>
+                <a class="btn btn-primary btn-md mt-2" style="display: none" target="_blank" href="mailto:">Email Now</a>
+                <button id="myBtn" class="btn btn-primary btn-md mt-2" style="display: none">Get Directions</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style=" background-color : white;">
+
+    <div class="py-2 border-bottom mb-2" style="display: none">
+        <div class="ql-editor">
+            
+        </div>
+    </div>
+
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor py-4" id="sitewide-header">
+            
+        </div>
+    </header>
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="font-weight-light">Pages</h3>
+        </div>
+
+        <div class="col-lg-4">
+                <a href="rgb-light-mouse.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="50422.jpg?key=5goKsO" alt="..." />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="rgb-light-mouse.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="title">RGB Light Mouse</h2>
+                        </div>
+                        <p class="card-text py-lg-2">RGB light mouse is a popular series of gaming mouse that incorporates vibrant RGB lighting into its design. This type of mouse is specifically designed for gaming enthusiasts who value aesthetics and want to add a touch of color to their gaming setup......
+                            <a href="rgb-light-mouse.html" class="text-primary">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="rgb-light-keyboard.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="50421.jpg?key=cwzeoJ" alt="..." />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="rgb-light-keyboard.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="title">RGB Light Keyboard</h2>
+                        </div>
+                        <p class="card-text py-lg-2">RGB keyboards have become increasingly popular in the gaming community due to their vibrant lighting effects and customization features. One standout option in the market is the Roccat Vulcan II Max keyboard, which offers stunning RGB backlighting an......
+                            <a href="rgb-light-keyboard.html" class="text-primary">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="laptop-39.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="50420.jpg?key=ERqUro" alt="..." />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="laptop-39.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="title">Laptop</h2>
+                        </div>
+                        <p class="card-text py-lg-2">When it comes to exploring different laptop brands, there is one name that stands out: Apple. With their MacBooks, Apple has revolutionized the laptop industry with sleek designs, powerful performance, and user-friendly interfaces. The latest MacBook......
+                            <a href="laptop-39.html" class="text-primary">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+
+        <div class="col-md-12">
+            <a href="services.html" style="text-decoration: none">
+                <div style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="text-primary">View Pages</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="font-weight-light">Computer: Latest Blog Posts</h3>
+        </div>
+
+
+        <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="can-i-change-my-mouse-rgb.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Can I change my mouse RGB?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB lighting has become a popular feature in modern computer mice. This type of lighting allows for customizable colors and effects to enhance the aesthetics of your mouse. By understanding the basics of RGB lighting on mice, you can make the most ou......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="can-i-change-my-mouse-rgb.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-mouse-has-the-best-rgb.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which mouse has the best RGB?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB lighting has become an essential feature in gaming peripherals, adding a vibrant and visually striking element to the gaming experience. Its importance cannot be understated, as it not only enhances the aesthetics of gaming setups but also contri......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="which-mouse-has-the-best-rgb.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-rgb-mice-worth-it.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are RGB mice worth it?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB mice offer numerous advantages for gamers and computer users alike. These mice are equipped with customizable lighting options that can enhance the overall gaming experience. With RGB mice, users can choose from a wide range of colors and lightin......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="are-rgb-mice-worth-it.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-rgb-on-a-mouse.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is RGB on a mouse?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Mouse design has come a long way over the years, evolving from simple and functional to truly spectacular. The progression of mouse design can be attributed to advancements in technology and the ever-growing demands of users. In the early days, mice ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-rgb-on-a-mouse.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+        <div class="col-md-12">
+            <a href="blog.html" style="text-decoration: none">
+                <div style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="text-primary">View Posts</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="ql-editor mb-4" style="display:none">
+        
+    </div>
+    <div class="pb-5 ql-editor" id="sitewide-footer" style="display:none">
+        
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+                <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color bg-footer">
+
+    <div class="container text-white">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="color: inherit;text-decoration: auto;" href="index.html">Computer</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color "></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none">
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href="facebook.com"><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; . All rights reserved.</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+
+</html>

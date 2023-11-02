@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+    
+    <style>
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+            color: #ffffff !important;
+        }
+        .footer-text-color{
+            color: #ffffff !important;
+        }
+        .footer-text-color .navbar-brand{
+            color: #ffffff !important;
+        }
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-header">
+    <div class="container px-5">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand" >
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()">
+                    </span>
+            <span class="navbar-brand header-text-color">Computer</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                <li class="nav-item {{home_active}}">
+                    <a class="nav-link header-text-color" href="index.html">Home</a>
+                </li>
+                <div class="nav-item {{service_active}} dropdown">
+                    <button class="header-text-color dropbtn is-mobile">Pages</button>
+                    <a class="nav-link header-text-color dropbtn is-desktop" href="services.html">Pages</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-content2">
+                            <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="rgb-light-mouse.html">RGB Light Mouse
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="rgb-light-keyboard.html">RGB Light Keyboard
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="laptop-39.html">Laptop
+                                                                                        <span class="border-menu"></span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <li class="nav-item active">
+                    <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item {{contact_active}}" style="display: inherit">
+                    <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: inherit">
+                <li class="nav-item" style="display: inline-block">
+                    <a class="nav-link header-text-color" target="_blank" href="facebook.com">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </li>
+                <li class="nav-item" style="display: none">
+                    <a class="nav-link header-text-color" target="_blank" href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container px-4 px-lg-5">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor py-4" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h3 class="font-weight-light">Computer: Latest Blog Posts</h3>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="can-i-change-my-mouse-rgb.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Can I change my mouse RGB?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB lighting has become a popular feature in modern computer mice. This type of lighting allows for customizable colors and effects to enhance the aesthetics of your mouse. By understanding the basics of RGB lighting on mice, you can make the most ou......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="can-i-change-my-mouse-rgb.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-mouse-has-the-best-rgb.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which mouse has the best RGB?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB lighting has become an essential feature in gaming peripherals, adding a vibrant and visually striking element to the gaming experience. Its importance cannot be understated, as it not only enhances the aesthetics of gaming setups but also contri......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="which-mouse-has-the-best-rgb.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-rgb-mice-worth-it.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are RGB mice worth it?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">RGB mice offer numerous advantages for gamers and computer users alike. These mice are equipped with customizable lighting options that can enhance the overall gaming experience. With RGB mice, users can choose from a wide range of colors and lightin......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="are-rgb-mice-worth-it.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-rgb-on-a-mouse.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is RGB on a mouse?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Mouse design has come a long way over the years, evolving from simple and functional to truly spectacular. The progression of mouse design can be attributed to advancements in technology and the ever-growing demands of users. In the early days, mice ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-rgb-on-a-mouse.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-difference-between-rgb-and-led-keyboards.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the difference between RGB and LED keyboards?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The first aspect of keyboard illumination that we will explore is the concept of illumination technology. This refers to the method used to light up the keys on a keyboard. Different keyboards utilize different technologies to achieve this. One commo......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-the-difference-between-rgb-and-led-keyboards.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-i-change-the-led-color-on-my-keyboard.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do I change the LED color on my keyboard?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to choosing the right keyboard model, there are several factors to consider. The first thing to think about is your specific needs and preferences. Are you a gamer who requires a keyboard with programmable keys and customizable macro fu......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="how-do-i-change-the-led-color-on-my-keyboard.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-i-control-rgb-lights-on-my-keyboard.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do I control RGB lights on my keyboard?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Setting up the RGB lights on your keyboard is an exciting and creative way to personalize your gaming experience. By customizing the lighting effects, you can create a visually stunning environment that enhances your gaming sessions. Whether you're a......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="how-do-i-control-rgb-lights-on-my-keyboard.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-rgb-lighting-on-a-keyboard.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is RGB lighting on a keyboard?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Keyboard lighting is an important aspect of modern gaming peripherals. It allows users to customize the appearance of their keyboards by illuminating the keys with different colors. This not only adds a visual appeal to the setup but also serves a pr......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-rgb-lighting-on-a-keyboard.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-should-a-good-laptop-cost-9.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What should a good laptop cost?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to choosing the right operating system for your laptop, cost is a major factor to consider. Different operating systems, such as Windows, macOS, and Linux, come with varying price tags that can greatly impact your budget. By carefully e......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-should-a-good-laptop-cost-9.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-one-is-best-laptop.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which one is best laptop?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to determining the best laptop, one of the key factors to consider is performance. This includes analyzing the processing power, RAM, and storage capacity. These aspects are crucial in ensuring that the laptop is able to handle tasks ef......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="which-one-is-best-laptop.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-a-good-laptop-to-buy-for-cheap-27.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is a good laptop to buy for cheap?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Chromebooks: Affordable Laptops with Impressive Benefits<br/><br/>Chromebooks are a popular choice for those seeking budget-friendly laptops. Running on the Chrome OS, these inexpensive devices offer an array of advantages that make them ideal for va......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-a-good-laptop-to-buy-for-cheap-27.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-is-best-to-buy-laptop-33.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: none">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-11-02</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which is best to buy laptop?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to purchasing a laptop, it is essential to understand your needs and determine the purpose and usage of the device. This knowledge will guide you in making a well-informed decision that perfectly aligns with your requirements. By assess......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="which-is-best-to-buy-laptop-33.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color bg-footer">
+
+    <div class="container text-white">
+        <div class="row  py-lg-3" >
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%"><h2><a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="" onerror="this.remove()"></a></h2></td>
+                        <td style="text-align: left" class="footer-text-color"><h2><a style="color: inherit;text-decoration: auto;" href="index.html">Computer</a></h2></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color "></td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color"></td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none">
+        <li class="list-inline-item" style="display: {{is_facebook_footer}}">
+            <a  style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank"  href="facebook.com"><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_twitter_footer}}">
+            <a  style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_instagram_footer}}">
+            <a  style="text-decoration: none" class=" footer-text-color text-white  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_pinterest_footer}}">
+            <a  style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: {{is_youtube_footer}}">
+            <a  style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; . All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
